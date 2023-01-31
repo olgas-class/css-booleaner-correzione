@@ -10,6 +10,11 @@
     background-color: yellow;
 }
 
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
 /* HEADER */
 /* header {
     background-image: url(../img/pattern.png);
@@ -89,4 +94,32 @@
 
 .odd-row {
     background-color: #b1e5f2;
+}
+
+/* FOOTER */
+.footer-title {
+    color: gray;
+    font-size: .8rem;
+    margin-bottom: 1rem;
+}
+
+.article-item {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 1rem;
+    background-size: cover;
+    background-position: center;
+}
+
+#monitor {
+    background-image: url(../img/monitor.jpg);
+}
+
+#graph {
+    background-image: url(../img/graph.jpg);
+}
+
+.article-item a {
+    text-decoration: none;
+    color: white;
 }
