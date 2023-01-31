@@ -1,3 +1,92 @@
-body {
-    background-color: aquamarine;
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+
+/* COMMON */
+.highlight {
+    background-color: yellow;
+}
+
+/* HEADER */
+/* header {
+    background-image: url(../img/pattern.png);
+    background-size: 250px;
+} */
+
+.header {
+    background-color: #4ea0ff;
+    background-image: url(../img/pattern.png);
+    background-size: 250px;
+    /* background: url(../img/pattern.png) 250px #4ea0ff; */
+    /* background-size: 30%; */
+    padding-top: 24px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+#header-logo {
+    width: 150px;
+}
+
+/* MAIN */
+/* Title */
+.title-container {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.author-info {
+    color: #808080;
+    font-size: .8rem;
+}
+
+.author {
+    color: #4ea0ff;
+}
+
+.date {
+    color: #808080;
+    font-size: .6rem;
+}
+
+/* Photos */
+.photos-container img {
+    /* width: 40%; */
+    height: 300px;
+}
+
+.caption {
+    font-size: .8rem;
+}
+
+/* Content */
+.content {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.content-list {
+    margin: 1rem;
+}
+
+.content table {
+    /* border-spacing: 0; */
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+}
+
+.content table thead {
+    background-color: #20a9e5;
+    color: white;
+}
+
+.large-column {
+    width: 50%;
+}
+
+.odd-row {
+    background-color: #b1e5f2;
 }
